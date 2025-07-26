@@ -107,14 +107,14 @@ export default function Header() {
                         className="md:hidden"
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                     >
-                        <Menu className="w-6 h-6" />
+                        <Menu className="w-6 h-6 text-black" />
                     </button>
                 </div>
 
                 {/* Mobile Navigation */}
                 {mobileMenuOpen && (
-                    <div className="md:hidden absolute top-16 left-0 right-0 bg-black/95 backdrop-blur-sm">
-                        <div className="px-4 py-2">
+                    <div className="md:hidden absolute top-16 left-0 right-0 bg-white/95 backdrop-blur-sm">
+                        <div className="px-4 py-2 text-black font-medium">
                             {navigationItems.map((item) => (
                                 <div key={item.label} className="py-2">
                                     <Link
@@ -129,7 +129,7 @@ export default function Header() {
                                             <Link
                                                 key={subItem.label}
                                                 href={subItem.href}
-                                                className="block py-2 text-sm text-gray-400 hover:text-white transition-colors"
+                                                className="block py-2 text-sm text-black  hover:bg-gray-800 hover:text-white transition-colors"
                                                 onClick={() => setMobileMenuOpen(false)}
                                             >
                                                 {subItem.label}
