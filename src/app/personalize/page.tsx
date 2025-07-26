@@ -3,11 +3,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import StickyDivider from '@/components/layout/StickyDivider'
 
 export default function CommercialPage() {
     return (
         <div className="container mx-auto px-4 py-20">
-            <div className="border-t-4 border-black mt-4 sticky top-16 z-40"></div>
+            <StickyDivider />
             <h1 className="text-4xl font-bold mb-8 text-black mt-8">Personalize</h1>
             <p className="mb-6 text-lg text-gray-700">
                 Explore our personalized photography services tailored to your unique vision.

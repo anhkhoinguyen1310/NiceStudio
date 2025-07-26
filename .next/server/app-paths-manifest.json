@@ -1,7 +1,7 @@
 {
-  "/personalize/family/page": "app/personalize/family/page.js",
-  "/personalize/portrait/page": "app/personalize/portrait/page.js",
-  "/commercial/fashion/page": "app/commercial/fashion/page.js",
-  "/commercial/page": "app/commercial/page.js",
-  "/personalize/page": "app/personalize/page.js"
+  "/not-found": "app/not-found.js",
+  "/personal-work/page": "app/personal-work/page.js",
+  "/personalize/page": "app/personalize/page.js",
+  "/page": "app/page.js",
+  "/personalize/portrait/page": "app/personalize/portrait/page.js"
 }
