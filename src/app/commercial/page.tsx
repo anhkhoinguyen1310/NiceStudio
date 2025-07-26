@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function CommercialPage() {
     return (
@@ -16,10 +17,10 @@ export default function CommercialPage() {
             <section className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {[
-                        { id: 1011, label: 'Fashion/Lookbook' },
-                        { id: 1015, label: 'Beauty' },
-                        { id: 1018, label: 'Advertising' },
-                    ].map(({ id, label }) => (
+                        { id: 1011, label: 'Fashion/Lookbook', href: '/commercial/fashion' },
+                        { id: 1015, label: 'Beauty', href: '/commercial/beauty' },
+                        { id: 1018, label: 'Advertising', href: '/commercial/advertising' },
+                    ].map(({ id, label, href }) => (
                         <div key={id} className="relative aspect-[4/5] group overflow-hidden flex flex-col">
                             <div className="relative w-full h-full">
                                 <Image
@@ -30,12 +31,16 @@ export default function CommercialPage() {
                                 />
                                 <div className="absolute inset-0 bg-black" />
                                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                    <p className="text-lg font-medium">View Gallery</p>
+                                    <Link href={href}>
+                                        <p className="text-lg font-medium underline cursor-pointer">View Gallery</p>
+                                    </Link>
                                 </div>
                             </div>
-                            <div className="mt-4 text-center text-black text-lg font-semibold">
-                                {label}
-                            </div>
+                            <Link href={href}>
+                                <div className="mt-4 text-center text-black text-lg font-semibold underline cursor-pointer">
+                                    {label}
+                                </div>
+                            </Link>
                         </div>
                     ))}
                 </div>

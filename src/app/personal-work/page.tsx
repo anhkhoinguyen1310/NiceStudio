@@ -42,7 +42,6 @@ export default function CommercialPage() {
                     ))}
                 </div>
             </section>
-// ...existing code...
         </div>
     )
 }

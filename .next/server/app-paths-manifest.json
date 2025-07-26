@@ -1,5 +1,7 @@
 {
-  "/commercial/page": "app/commercial/page.js",
   "/page": "app/page.js",
-  "/personal-work/page": "app/personal-work/page.js"
+  "/commercial/page": "app/commercial/page.js",
+  "/commercial/fashion/page": "app/commercial/fashion/page.js",
+  "/commercial/beauty/page": "app/commercial/beauty/page.js",
+  "/commercial/advertising/page": "app/commercial/advertising/page.js"
 }

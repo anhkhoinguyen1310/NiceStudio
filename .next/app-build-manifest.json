@@ -16,10 +16,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/commercial/page.js"
     ],
-    "/personal-work/page": [
+    "/commercial/fashion/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/personal-work/page.js"
+      "static/chunks/app/commercial/fashion/page.js"
+    ],
+    "/commercial/beauty/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/commercial/beauty/page.js"
+    ],
+    "/commercial/advertising/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/commercial/advertising/page.js"
     ]
   }
 }
