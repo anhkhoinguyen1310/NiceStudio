@@ -1,4 +1,4 @@
-// File: /Users/nguyenanhkhoi/cursorAI/src/app/layout.tsx
+// File: /Users/nguyenanhkhoi/Desktop/CS-Selftaught/NiceStudio/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
