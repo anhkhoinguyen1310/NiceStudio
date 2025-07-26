@@ -63,11 +63,11 @@ export default function Header() {
 
     return (
         <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm">
-            <nav className="container mx-auto px-4 h-16">
+            <nav className="container mx-auto px-4 h-16 mt-4">
                 <div className="flex items-center justify-between h-full mr-15">
-                    <Link href="/" className="relative w-[250px] h-[90px]">
+                    <Link href="/" className="relative w-[150px] h-[90px]">
                         <Image
-                            src="/NICEE.png"
+                            src="/nice.png"
                             alt="Logo"
                             fill
                             className="object-contain"
@@ -76,7 +76,7 @@ export default function Header() {
                     </Link>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center space-x-8">
+                    <div className="hidden md:flex items-center space-x-8 text-black font-medium">
                         {navigationItems.map((item) => (
                             <div
                                 key={item.label}
