@@ -11,25 +11,35 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/commercial/page": [
+    "/personalize/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/commercial/page.js"
+      "static/chunks/app/personalize/page.js"
+    ],
+    "/personalize/family/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/personalize/family/page.js"
+    ],
+    "/personalize/wedding/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/personalize/wedding/page.js"
+    ],
+    "/personalize/portrait/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/personalize/portrait/page.js"
     ],
     "/commercial/fashion/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/commercial/fashion/page.js"
     ],
-    "/commercial/beauty/page": [
+    "/commercial/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/commercial/beauty/page.js"
-    ],
-    "/commercial/advertising/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/commercial/advertising/page.js"
+      "static/chunks/app/commercial/page.js"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/commercial/page": "app/commercial/page.js",
+  "/personalize/family/page": "app/personalize/family/page.js",
+  "/personalize/portrait/page": "app/personalize/portrait/page.js",
   "/commercial/fashion/page": "app/commercial/fashion/page.js",
-  "/commercial/beauty/page": "app/commercial/beauty/page.js",
-  "/commercial/advertising/page": "app/commercial/advertising/page.js"
+  "/commercial/page": "app/commercial/page.js",
+  "/personalize/page": "app/personalize/page.js"
 }
