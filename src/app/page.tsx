@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative h-screen flex items-center justify-center">
+            <section className="relative flex items-center justify-center py-12">
                 <div className="container mx-auto px-4 flex justify-center">
                     <Image
                         src="/background.JPG"
