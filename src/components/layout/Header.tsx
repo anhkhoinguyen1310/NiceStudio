@@ -76,7 +76,7 @@ export default function Header() {
                     </Link>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center space-x-8 text-black font-medium">
+                    <div className="hidden md:flex items-center space-x-8 text-lg text-gray-700">
                         {navigationItems.map((item) => (
                             <div
                                 key={item.label}
@@ -114,7 +114,7 @@ export default function Header() {
                 {/* Mobile Navigation */}
                 {mobileMenuOpen && (
                     <div className="md:hidden absolute top-16 left-0 right-0 bg-white/95 backdrop-blur-sm">
-                        <div className="px-4 py-2 text-black font-medium">
+                        <div className="px-4 py-2 text-md text-gray-700">
                             {navigationItems.map((item) => (
                                 <div key={item.label} className="py-2">
                                     <Link
