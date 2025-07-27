@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     icons: {
         icon: [
             {
-                url: '/favicon-32x32.png',
+                url: '/logo_Nice.png',
                 sizes: 'any',
             },
             {
-                url: '/favicon-32x32.png',
+                url: '/logo_Nice.png',
                 sizes: '32x32',
             },
         ],
