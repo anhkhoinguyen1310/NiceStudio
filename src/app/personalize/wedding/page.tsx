@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import StickyDivider from '@/components/layout/StickyDivider'
 
 export default function WeddingPage() {
     return (
