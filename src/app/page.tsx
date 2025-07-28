@@ -9,25 +9,19 @@ export default function Home() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative flex items-center justify-center py-12 pt-24">
-                <div className="container mx-auto px-4 flex justify-center">
-                    <Image
-                        src="/background.JPG"
-                        alt="Hero Photography"
-                        width={800}
-                        height={1000}
-                        className="rounded-lg shadow-lg object-cover w-full h-auto"
-                        priority
-                    />
-                </div>
-
-
-
-                {/* Bottom Right Logo */}
-                <div className="absolute bottom-8 right-8">
-                    <Camera className="w-12 h-12" />
+            <section className="relative w-full aspect-video overflow-hidden mt-20 sm:mt-28 lg:mt-24">
+                <Image
+                    src="/background.JPG"
+                    alt="Hero Photography"
+                    fill
+                    priority
+                    className="object-cover"
+                />
+                <div className="absolute bottom-4 right-4">
+                    <Camera className="w-8 h-8 sm:w-12 sm:h-12 text-white" />
                 </div>
             </section>
+
 
             {/* Featured Work Preview */}
             <section className="container mx-auto px-4 py-16">

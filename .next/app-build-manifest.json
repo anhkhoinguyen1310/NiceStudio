@@ -15,21 +15,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/personal-work/page.js"
-    ],
-    "/commercial/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/commercial/page.js"
-    ],
-    "/personalize/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/personalize/page.js"
-    ],
-    "/personalize/portrait/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/personalize/portrait/page.js"
     ]
   }
 }
