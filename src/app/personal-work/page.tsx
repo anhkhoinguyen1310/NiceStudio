@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import StickyDivider from '@/components/layout/StickyDivider'
 
-export default function CommercialPage() {
+export default function PersonalWorkPage() {
     return (
         <div className="container mx-auto px-4 py-20">
             <StickyDivider />
